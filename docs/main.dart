@@ -125,7 +125,7 @@ void _showOutputDiv(bool show) {
 }
 
 Future<void> _onSubmit() async {
-  print('[web - main - _onSubmit] run');
+  print('[docs - main - _onSubmit] run');
   try {
     final jsonInputValue = jsonInput.value ?? '';
     final formClass = converterClassInput.value ?? '';
@@ -145,7 +145,7 @@ Future<void> _onSubmit() async {
     classOutput.value = rs ?? '';
     _showOutputDiv(true);
   } catch (e) {
-    print('[web - main - _onSubmit] $e');
+    print('[docs - main - _onSubmit] $e');
     String message;
     if (e is LogicException) {
       message = e.message.toString();
