@@ -23,7 +23,7 @@ final classOutputHidden =
 final classOutputDiv = querySelector('#classOutputDiv') as DivElement;
 
 final btnSubmit = querySelector('#submit') as ButtonElement;
-final btnClose = querySelector('#close') as DivElement;
+final btnClose = querySelector('#close') as Element;
 
 Future<void> runDemo() async {
   String demo = await _readJsonFile("assets/json/demo_1.json");
