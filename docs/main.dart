@@ -3,7 +3,6 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:html';
 import 'dart:js';
-
 import 'package:json_to_dart/json_to_dart.dart';
 
 final jsonInput = querySelector('#jsonInput') as TextAreaElement;
